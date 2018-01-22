@@ -14,6 +14,7 @@
 		524126D92015FBF800F53DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524126D82015FBF800F53DE6 /* Assets.xcassets */; };
 		524126DC2015FBF800F53DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524126DA2015FBF800F53DE6 /* LaunchScreen.storyboard */; };
 		524126E92015FDC200F53DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 524126E82015FDC100F53DE6 /* GoogleService-Info.plist */; };
+		524126EB201618BE00F53DE6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126EA201618BE00F53DE6 /* DataService.swift */; };
 		F254F15884280D4CDC4BBB94 /* Pods_point.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC080E1052FC62C1DBEC5DF /* Pods_point.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		524126DB2015FBF800F53DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524126DD2015FBF800F53DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524126E82015FDC100F53DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		524126EA201618BE00F53DE6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		83F2C120DB6A58310921A748 /* Pods-point.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.debug.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD327CBC79CA5C717FC0BB0 /* Pods-point.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.release.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		524126E72015FC8100F53DE6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				524126EA201618BE00F53DE6 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				524126D42015FBF800F53DE6 /* SecondViewController.swift in Sources */,
 				524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */,
 				524126D22015FBF800F53DE6 /* FirstViewController.swift in Sources */,
+				524126EB201618BE00F53DE6 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
