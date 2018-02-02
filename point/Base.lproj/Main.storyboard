@@ -62,7 +62,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="m2e-2g-qhU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="m2e-2g-qhU" customClass="FeedCell" customModule="point" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m2e-2g-qhU" id="Doc-Ch-kFV">
@@ -107,6 +107,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.16078431372549018" green="0.16862745098039217" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="contentMessageLbl" destination="YKe-Tt-lJt" id="Npq-XI-1eI"/>
+                                            <outlet property="profileImage" destination="XyX-aI-WpG" id="Ex5-Mk-RHU"/>
+                                            <outlet property="userEmailLbl" destination="saK-kx-JKr" id="Rxi-29-oNK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -122,17 +127,12 @@
                             <constraint firstItem="Q6v-ZN-BMb" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="rla-Cr-wvb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
-                        <connections>
-                            <outlet property="contentMessageLbl" destination="YKe-Tt-lJt" id="aKZ-zf-MSD"/>
-                            <outlet property="profileImage" destination="XyX-aI-WpG" id="F5x-fb-ZL1"/>
-                            <outlet property="userEmailLbl" destination="saK-kx-JKr" id="GQA-o6-uLq"/>
-                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Feed" image="feed-tabIcon" selectedImage="feed-tabIcon" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="844" y="-382"/>
         </scene>
         <!--Group-->
         <scene sceneID="wg7-f3-ORb">
