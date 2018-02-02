@@ -59,5 +59,9 @@ class LoginVC: UIViewController  {
 }
 
 extension LoginVC: UITextFieldDelegate {
+    private func textViewDidBeginEditing(_ textView: UITextView) {
+            emailField.text = ""
+            passwordField.text = ""
+    }
     
 }
