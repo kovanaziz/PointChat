@@ -10,6 +10,7 @@
 		52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E5E20164CA500D46BCB /* AuthVC.swift */; };
 		52008E6120164CD900D46BCB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E6020164CD900D46BCB /* LoginVC.swift */; };
 		52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E6220164DA900D46BCB /* InsertTextFeild.swift */; };
+		520594C42024A86700D015E0 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520594C32024A86700D015E0 /* MeVC.swift */; };
 		524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126CF2015FBF800F53DE6 /* AppDelegate.swift */; };
 		524126D22015FBF800F53DE6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D12015FBF800F53DE6 /* FeedVC.swift */; };
 		524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D32015FBF800F53DE6 /* GroupVC.swift */; };
@@ -28,6 +29,7 @@
 		52008E5E20164CA500D46BCB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		52008E6020164CD900D46BCB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		52008E6220164DA900D46BCB /* InsertTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextFeild.swift; sourceTree = "<group>"; };
+		520594C32024A86700D015E0 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		524126CC2015FBF700F53DE6 /* point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = point.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524126CF2015FBF800F53DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524126D12015FBF800F53DE6 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				524126D32015FBF800F53DE6 /* GroupVC.swift */,
 				52008E5E20164CA500D46BCB /* AuthVC.swift */,
 				52008E6020164CD900D46BCB /* LoginVC.swift */,
+				520594C32024A86700D015E0 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520594C42024A86700D015E0 /* MeVC.swift in Sources */,
 				52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */,
 				52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */,
 				524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */,
