@@ -39,7 +39,7 @@ class DataService {
     
     // this func can be used to create firebase users
     func createDBUSER(uid:String, userData: Dictionary<String,Any>) {
-        REF_USERs.child(uid).updateChildValues(userData)
+        REF_USERs.child(uid).updateChildValues(userData) // inside "users" we create new child
         
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E5E20164CA500D46BCB /* AuthVC.swift */; };
+		52008E6120164CD900D46BCB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E6020164CD900D46BCB /* LoginVC.swift */; };
+		52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E6220164DA900D46BCB /* InsertTextFeild.swift */; };
 		524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126CF2015FBF800F53DE6 /* AppDelegate.swift */; };
 		524126D22015FBF800F53DE6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D12015FBF800F53DE6 /* FirstViewController.swift */; };
 		524126D42015FBF800F53DE6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D32015FBF800F53DE6 /* SecondViewController.swift */; };
@@ -15,11 +18,15 @@
 		524126DC2015FBF800F53DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524126DA2015FBF800F53DE6 /* LaunchScreen.storyboard */; };
 		524126E92015FDC200F53DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 524126E82015FDC100F53DE6 /* GoogleService-Info.plist */; };
 		524126EB201618BE00F53DE6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126EA201618BE00F53DE6 /* DataService.swift */; };
+		52C5A67B201655BF008065AC /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5A67A201655BF008065AC /* ShadowView.swift */; };
 		F254F15884280D4CDC4BBB94 /* Pods_point.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC080E1052FC62C1DBEC5DF /* Pods_point.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DC080E1052FC62C1DBEC5DF /* Pods_point.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_point.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52008E5E20164CA500D46BCB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		52008E6020164CD900D46BCB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		52008E6220164DA900D46BCB /* InsertTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextFeild.swift; sourceTree = "<group>"; };
 		524126CC2015FBF700F53DE6 /* point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = point.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524126CF2015FBF800F53DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524126D12015FBF800F53DE6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +37,7 @@
 		524126DD2015FBF800F53DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524126E82015FDC100F53DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		524126EA201618BE00F53DE6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		52C5A67A201655BF008065AC /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		83F2C120DB6A58310921A748 /* Pods-point.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.debug.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD327CBC79CA5C717FC0BB0 /* Pods-point.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.release.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +95,8 @@
 			children = (
 				524126D12015FBF800F53DE6 /* FirstViewController.swift */,
 				524126D32015FBF800F53DE6 /* SecondViewController.swift */,
+				52008E5E20164CA500D46BCB /* AuthVC.swift */,
+				52008E6020164CD900D46BCB /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +104,8 @@
 		524126E42015FC3C00F53DE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				52008E6220164DA900D46BCB /* InsertTextFeild.swift */,
+				52C5A67A201655BF008065AC /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */,
+				52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */,
 				524126D42015FBF800F53DE6 /* SecondViewController.swift in Sources */,
+				52008E6120164CD900D46BCB /* LoginVC.swift in Sources */,
+				52C5A67B201655BF008065AC /* ShadowView.swift in Sources */,
 				524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */,
 				524126D22015FBF800F53DE6 /* FirstViewController.swift in Sources */,
 				524126EB201618BE00F53DE6 /* DataService.swift in Sources */,
