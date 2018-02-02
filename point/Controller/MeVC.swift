@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import Firebase
 
 class MeVC: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var emailLbl: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        guard let userEmail = Auth.auth().currentUser?.email else {return}
+        emailLbl.text = userEmail
     }
 
     @IBAction func signOutBtnPressed(_ sender: Any) {

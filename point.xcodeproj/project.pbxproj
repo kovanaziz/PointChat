@@ -12,6 +12,7 @@
 		52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52008E6220164DA900D46BCB /* InsertTextFeild.swift */; };
 		520594C42024A86700D015E0 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520594C32024A86700D015E0 /* MeVC.swift */; };
 		520594C62024D88800D015E0 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520594C52024D88800D015E0 /* CreatePostVC.swift */; };
+		520594C82024E49800D015E0 /* UIViewEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520594C72024E49800D015E0 /* UIViewEXT.swift */; };
 		524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126CF2015FBF800F53DE6 /* AppDelegate.swift */; };
 		524126D22015FBF800F53DE6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D12015FBF800F53DE6 /* FeedVC.swift */; };
 		524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D32015FBF800F53DE6 /* GroupVC.swift */; };
@@ -32,6 +33,7 @@
 		52008E6220164DA900D46BCB /* InsertTextFeild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextFeild.swift; sourceTree = "<group>"; };
 		520594C32024A86700D015E0 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		520594C52024D88800D015E0 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		520594C72024E49800D015E0 /* UIViewEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEXT.swift; sourceTree = "<group>"; };
 		524126CC2015FBF700F53DE6 /* point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = point.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524126CF2015FBF800F53DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524126D12015FBF800F53DE6 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		524126E62015FC4C00F53DE6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				520594C72024E49800D015E0 /* UIViewEXT.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520594C82024E49800D015E0 /* UIViewEXT.swift in Sources */,
 				520594C42024A86700D015E0 /* MeVC.swift in Sources */,
 				52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */,
 				52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */,
