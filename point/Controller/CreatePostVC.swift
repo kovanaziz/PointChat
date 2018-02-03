@@ -23,7 +23,7 @@ class CreatePostVC: UIViewController {
         sendBtn.bindToKeyboard()
     }
  
-    @IBAction func cliseBtnPressed(_ sender: Any) {
+    @IBAction func closeBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
