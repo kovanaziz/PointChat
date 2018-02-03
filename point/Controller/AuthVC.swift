@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class AuthVC: UIViewController {
 
@@ -14,6 +15,14 @@ class AuthVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    // after login, if we logged in then this windows should disappear
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+            dismiss(animated: true, completion: nil)
+        }
     }
 
     @IBAction func signinWithEmailBtnPressed(_ sender: Any) {
