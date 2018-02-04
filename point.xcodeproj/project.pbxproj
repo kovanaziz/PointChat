@@ -25,6 +25,7 @@
 		525CC588202456310020C5D7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525CC587202456310020C5D7 /* AuthService.swift */; };
 		52C5A67B201655BF008065AC /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5A67A201655BF008065AC /* ShadowView.swift */; };
 		52FC7AE320274686006DF9F9 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC7AE220274686006DF9F9 /* CreateGroupVC.swift */; };
+		52FC7AE520275336006DF9F9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC7AE420275336006DF9F9 /* UserCell.swift */; };
 		52FF3DA52026198C00F65CA5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF3DA42026198C00F65CA5 /* Message.swift */; };
 		F254F15884280D4CDC4BBB94 /* Pods_point.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC080E1052FC62C1DBEC5DF /* Pods_point.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		525CC587202456310020C5D7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		52C5A67A201655BF008065AC /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		52FC7AE220274686006DF9F9 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		52FC7AE420275336006DF9F9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		52FF3DA42026198C00F65CA5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		83F2C120DB6A58310921A748 /* Pods-point.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.debug.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD327CBC79CA5C717FC0BB0 /* Pods-point.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-point.release.xcconfig"; path = "Pods/Target Support Files/Pods-point/Pods-point.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				52008E6220164DA900D46BCB /* InsertTextFeild.swift */,
 				52C5A67A201655BF008065AC /* ShadowView.swift */,
 				520594C92024FEDC00D015E0 /* FeedCell.swift */,
+				52FC7AE420275336006DF9F9 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */,
 				525CC588202456310020C5D7 /* AuthService.swift in Sources */,
 				52008E6120164CD900D46BCB /* LoginVC.swift in Sources */,
+				52FC7AE520275336006DF9F9 /* UserCell.swift in Sources */,
 				52FC7AE320274686006DF9F9 /* CreateGroupVC.swift in Sources */,
 				52C5A67B201655BF008065AC /* ShadowView.swift in Sources */,
 				520594C62024D88800D015E0 /* CreatePostVC.swift in Sources */,
