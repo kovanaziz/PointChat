@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class CreateGroupVC: UIViewController {
 
@@ -21,6 +22,7 @@ class CreateGroupVC: UIViewController {
     //Variable
     var emailArray = [String]()
     var chosenUserArray = [String]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +56,20 @@ class CreateGroupVC: UIViewController {
     
     
     @IBAction func doneBtnPressed(_ sender: Any) {
+        if titleTextField.text != "" && titleTextField.text != "give your group a title"  && descriptionTitleField.text != "" && descriptionTitleField.text != "give your group a description" {
+            DataService.instance.getuserId(forUsername: chosenUserArray, handler: {(returnedidArray) in
+                var userIds = returnedidArray
+                userIds.append((Auth.auth().currentUser?.uid)!)
+                DataService.instance.CreateGroup(withTitle: self.titleTextField.text!, andDescription: self.descriptionTitleField.text!, forUserIds: userIds, handler: { (success) in
+                    if success {
+                        self.dismiss(animated: true, completion: nil)
+                    } else {
+                        print("Can't make a group")
+                    }
+                })
+            })
+            
+        }
     }
     
     @IBAction func closeBtnPressed(_ sender: Any) {
