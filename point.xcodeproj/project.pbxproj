@@ -16,6 +16,8 @@
 		520594CA2024FEDC00D015E0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520594C92024FEDC00D015E0 /* FeedCell.swift */; };
 		521913A020289F9F003187F8 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219139F20289F9F003187F8 /* GroupCell.swift */; };
 		521913A42028A649003187F8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521913A32028A649003187F8 /* Group.swift */; };
+		521913A62028C5EB003187F8 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521913A52028C5EB003187F8 /* GroupFeedCell.swift */; };
+		521913A82028C668003187F8 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521913A72028C668003187F8 /* GroupFeedVC.swift */; };
 		524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126CF2015FBF800F53DE6 /* AppDelegate.swift */; };
 		524126D22015FBF800F53DE6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D12015FBF800F53DE6 /* FeedVC.swift */; };
 		524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126D32015FBF800F53DE6 /* GroupVC.swift */; };
@@ -43,6 +45,8 @@
 		520594C92024FEDC00D015E0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		5219139F20289F9F003187F8 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		521913A32028A649003187F8 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		521913A52028C5EB003187F8 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		521913A72028C668003187F8 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		524126CC2015FBF700F53DE6 /* point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = point.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524126CF2015FBF800F53DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524126D12015FBF800F53DE6 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				520594C32024A86700D015E0 /* MeVC.swift */,
 				520594C52024D88800D015E0 /* CreatePostVC.swift */,
 				52FC7AE220274686006DF9F9 /* CreateGroupVC.swift */,
+				521913A72028C668003187F8 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				520594C92024FEDC00D015E0 /* FeedCell.swift */,
 				52FC7AE420275336006DF9F9 /* UserCell.swift */,
 				5219139F20289F9F003187F8 /* GroupCell.swift */,
+				521913A52028C5EB003187F8 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +327,8 @@
 				521913A020289F9F003187F8 /* GroupCell.swift in Sources */,
 				52008E5F20164CA500D46BCB /* AuthVC.swift in Sources */,
 				52008E6320164DA900D46BCB /* InsertTextFeild.swift in Sources */,
+				521913A82028C668003187F8 /* GroupFeedVC.swift in Sources */,
+				521913A62028C5EB003187F8 /* GroupFeedCell.swift in Sources */,
 				524126D42015FBF800F53DE6 /* GroupVC.swift in Sources */,
 				525CC588202456310020C5D7 /* AuthService.swift in Sources */,
 				52008E6120164CD900D46BCB /* LoginVC.swift in Sources */,
