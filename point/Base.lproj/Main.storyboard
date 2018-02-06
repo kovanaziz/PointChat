@@ -588,11 +588,8 @@
                                         <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="contentLbl" destination="UpW-4K-Lj6" id="Pxo-Tn-l3Y"/>
-                                            <outlet property="contentMessageLbl" destination="UpW-4K-Lj6" id="Wxb-OF-6xv"/>
                                             <outlet property="emailLbl" destination="stB-vx-6la" id="shL-my-mo4"/>
-                                            <outlet property="profileImage" destination="NLe-5m-9kO" id="zxI-ay-83S"/>
                                             <outlet property="profileImg" destination="NLe-5m-9kO" id="Tnw-dD-WeB"/>
-                                            <outlet property="userEmailLbl" destination="stB-vx-6la" id="AKK-3p-lgs"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -627,6 +624,7 @@
                                     <constraint firstItem="RWs-Ll-bqP" firstAttribute="leading" secondItem="JhB-3h-ovP" secondAttribute="leading" constant="8" id="Taq-tO-Fr6"/>
                                     <constraint firstItem="uR1-Vp-gLm" firstAttribute="centerY" secondItem="JhB-3h-ovP" secondAttribute="centerY" id="dVu-nc-Sti"/>
                                     <constraint firstItem="uR1-Vp-gLm" firstAttribute="leading" secondItem="RWs-Ll-bqP" secondAttribute="trailing" constant="8" id="nUL-Ee-1CR"/>
+                                    <constraint firstAttribute="height" constant="40" id="xnG-zY-X4Z"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -637,7 +635,6 @@
                             <constraint firstItem="qsc-70-bN2" firstAttribute="trailing" secondItem="Dfz-Z8-PA5" secondAttribute="trailing" id="40E-DJ-yIf"/>
                             <constraint firstItem="qsc-70-bN2" firstAttribute="leading" secondItem="Dfz-Z8-PA5" secondAttribute="leading" id="SCe-Wu-znW"/>
                             <constraint firstItem="JhB-3h-ovP" firstAttribute="leading" secondItem="Dfz-Z8-PA5" secondAttribute="leading" id="WO8-v5-c6O"/>
-                            <constraint firstItem="JhB-3h-ovP" firstAttribute="bottom" secondItem="Dfz-Z8-PA5" secondAttribute="bottom" id="aAj-5r-Xcs"/>
                             <constraint firstItem="Dfz-Z8-PA5" firstAttribute="bottom" secondItem="eCq-dl-Yo5" secondAttribute="bottom" constant="40" id="h1O-eh-d49"/>
                             <constraint firstItem="eCq-dl-Yo5" firstAttribute="top" secondItem="qsc-70-bN2" secondAttribute="bottom" id="iTw-14-ocQ"/>
                             <constraint firstItem="qsc-70-bN2" firstAttribute="top" secondItem="haw-8O-pXF" secondAttribute="top" id="s8n-WG-ZDb"/>

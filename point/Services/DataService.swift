@@ -46,7 +46,8 @@ class DataService {
     // this func will put message in 
     func uploadPost(withMessage message:String, forUID uid:String, withGroupKey groupKey:String?, sendComplete: @escaping (_ status:Bool) -> ()) {
         if groupKey !=  nil {
-            // send to groupred
+            REF_GROUPS.child(groupKey!).child("messages").childByAutoId().updateChildValues(["content": message, "senderId" : uid])
+            sendComplete(true)
             } else {
             REF_FEED.childByAutoId().updateChildValues(["content": message, "senderID": uid])
             sendComplete(true)
@@ -94,6 +95,22 @@ class DataService {
             }
             handler(messageArray.reversed())
         }
+    }
+    
+    
+    func getAllMessagesFor(desiredGroup : Group, handler: @escaping (_ messageArray:[Message])->()){
+        var groupMessageArray = [Message]()
+        REF_GROUPS.child(desiredGroup.key).child("messages").observeSingleEvent(of: .value) { (groupMessageSnapshot) in
+            guard let groupMessageSnapshot = groupMessageSnapshot.children.allObjects as? [DataSnapshot] else {return}
+            for groupMessage in groupMessageSnapshot {
+                let content = groupMessage.childSnapshot(forPath: "content").value as! String
+                let senderId = groupMessage.childSnapshot(forPath: "senderId").value as! String
+                let groupMessage = Message(content: content, senderID: senderId)
+                groupMessageArray.append(groupMessage)
+            }
+            handler(groupMessageArray)
+        }
+        
     }
     
     func getEmail(forSeachQuery query:String, handler: @escaping (_ emailArray: [String]) -> ()){
