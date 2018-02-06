@@ -31,6 +31,7 @@ class GroupFeedVC: UIViewController {
         super.viewDidLoad()
         sendBtnView.bindToKeyboard()
         
+        
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -68,7 +69,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backBtnPressed(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.dismissDetail()
     }
 
 }

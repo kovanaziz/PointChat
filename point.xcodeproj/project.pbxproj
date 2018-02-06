@@ -26,6 +26,7 @@
 		524126DC2015FBF800F53DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524126DA2015FBF800F53DE6 /* LaunchScreen.storyboard */; };
 		524126E92015FDC200F53DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 524126E82015FDC100F53DE6 /* GoogleService-Info.plist */; };
 		524126EB201618BE00F53DE6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524126EA201618BE00F53DE6 /* DataService.swift */; };
+		525903D2202A036200C0FA23 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525903D1202A036200C0FA23 /* File.swift */; };
 		525CC588202456310020C5D7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525CC587202456310020C5D7 /* AuthService.swift */; };
 		52C5A67B201655BF008065AC /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5A67A201655BF008065AC /* ShadowView.swift */; };
 		52FC7AE320274686006DF9F9 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC7AE220274686006DF9F9 /* CreateGroupVC.swift */; };
@@ -57,6 +58,7 @@
 		524126DD2015FBF800F53DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524126E82015FDC100F53DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		524126EA201618BE00F53DE6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		525903D1202A036200C0FA23 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		525CC587202456310020C5D7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		52C5A67A201655BF008065AC /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		52FC7AE220274686006DF9F9 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				520594C72024E49800D015E0 /* UIViewEXT.swift */,
+				525903D1202A036200C0FA23 /* File.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				52FC7AE320274686006DF9F9 /* CreateGroupVC.swift in Sources */,
 				52C5A67B201655BF008065AC /* ShadowView.swift in Sources */,
 				520594C62024D88800D015E0 /* CreatePostVC.swift in Sources */,
+				525903D2202A036200C0FA23 /* File.swift in Sources */,
 				524126D02015FBF800F53DE6 /* AppDelegate.swift in Sources */,
 				524126D22015FBF800F53DE6 /* FeedVC.swift in Sources */,
 				524126EB201618BE00F53DE6 /* DataService.swift in Sources */,
