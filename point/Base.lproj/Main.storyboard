@@ -946,6 +946,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yOQ-fv-lZo"/>
                     </view>
+                    <connections>
+                        <outlet property="facebookLoginBtn" destination="gxU-Uv-Aql" id="CdM-cF-gMU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g1c-hM-z6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
